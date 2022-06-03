@@ -17,7 +17,7 @@ public class Content {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    private Long id;
 
     @NotNull
     @Size(min = 2,max = 255)

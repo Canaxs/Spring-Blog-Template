@@ -14,13 +14,13 @@ public class Menu {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private long id;
+    private Long id;
 
     private String menuName;
 
     private PageType pageType;
 
-    private long pageId;
+    private Long pageId;
 
 
 }
